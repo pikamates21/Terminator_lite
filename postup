@@ -1,0 +1,7 @@
+4.09.26
+Začal jsem se zkoušením jak VHDL pořádně funguje. Od učitele na praxích jsem si půjčil stepper a servo motor, drivery,
+rs480 převaděče a AMD Kria KV260. Rozjel jsem na něm Ubuntu a pokoušel jsem se rozjet hlavně zmíněný servo motor.
+Jelikož byly součástky drahé, tak jsem muel dávat bacha, abych neudělal chybu. Vlastně to jsou první pořádné kroky k mému projektu.
+Zatím nemám rozvržený plán, ale na praxích, za pomocí pana Čermáka i myslím, že bych se mohl minimálně s hardwarem hodně posunout. 
+Je to ideální prostčedí s vyhrazeným časem na takový projekt, dané zkušenosti pak můžu využít i na právě jeho vlastní projekty. 
+Takže je to vlastně ruka k ruce.
