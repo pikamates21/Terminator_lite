@@ -5,3 +5,21 @@ Jelikož byly součástky drahé, tak jsem muel dávat bacha, abych neudělal ch
 Zatím nemám rozvržený plán, ale na praxích, za pomocí pana Čermáka i myslím, že bych se mohl minimálně s hardwarem hodně posunout. 
 Je to ideální prostčedí s vyhrazeným časem na takový projekt, dané zkušenosti pak můžu využít i na právě jeho vlastní projekty. 
 Takže je to vlastně ruka k ruce.
+
+9.09.26
+V hodinách PCV jsem se pořádně kouknul už na postup, jakým budu robota stavět, jaké součástky budu používat, nebo co přesněji všechno na něm chci uskutečnit.
+Takový základ součástek, které bych chtěl využít(většina z nich bude nejspíše zapůjčena):
+- AMD KRIA kv260 - to je nějaká deska, na které toho jde rozjet vážně hodně, chtěl bych ji použít na hlavní ovládání celého robota,
+má hodně konektorů, potřebuje 12V přívod a mohl bych si jej jednoduše pro svůj projekt zapůjčit od pana Čermáka, mého učitele na praxích
+- dva motory, ještě uvidím jestli si vyberu steppery, nebo servo motory, uvidím jak to bude vycházet cenově, případně bych si jej také mohl zapůjčit
+- driver k motorům - prostě něco, čím ty motory budu ovládat, ten si asi budu muset zakoupit
+- IMU - senzor, který by měřil rovnováhu robota, sice by měl být na kolečkách, avšak na dvou, ten bych si také koupil
+- kamera - měla by sledovat dráhu před sebou, podle ní by se pak robot hlavně choval, kameru si buď zakoupím, nebo ještě nějakou najdu doma
+- reproduktor - robot by podle jeho stavu dával jednoduché hlasové signály, které bych nahrál já sám, nějaké malé reproduktory mám
+- zesilovač - aby ty reproduktory šli slyšet, dá jím větší výkon, bude potřeba koupit
+- DC/DC měnič - potřeboval bych stabilizovat proud z baterie do Kria Kv260, bude potřeba koupit
+- baterie - uvažuju na napájení z lithiových baterií, bude potřeba koupit
+- BTS - nějaká "držák" na ty baterie, bude potřeba koupit, tady i případně vyrobit (jen nápad)
+- enkodéry, tam záleží na tom, jaké budu mít motorky, případně dokoupit
+- nakonec schránka z 3D tiskárny - tu budu dělat minimálně až po upřesnění všech součástek, ale jinak tu si sám namodeluju a vytisknu
+Tak k tomuto zápisu, ještě vytvořím soubor mainu, kde bude aktuální seznam součástek, kvůli přehlednosti, zároveň nejspíše předělám celý repozitář, kvůli přehlednosti.
