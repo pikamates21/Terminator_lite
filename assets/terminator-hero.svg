@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="132" y1="76" x2="809" y2="517" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="273" y1="135" x2="742" y2="444" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="270" y1="150" x2="670" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6EE7F9"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="600" rx="36" fill="url(#bg)"/>
+  <circle cx="184" cy="172" r="120" fill="#6EE7F9" fill-opacity="0.08"/>
+  <circle cx="745" cy="418" r="150" fill="#8B5CF6" fill-opacity="0.1"/>
+
+  <g>
+    <rect x="230" y="120" width="500" height="340" rx="28" fill="url(#panel)" stroke="#475569" stroke-width="2"/>
+    <rect x="300" y="175" width="350" height="190" rx="26" fill="#0B1220" stroke="#38BDF8" stroke-opacity="0.5"/>
+    <circle cx="355" cy="225" r="16" fill="#6EE7F9" fill-opacity="0.9"/>
+    <circle cx="610" cy="225" r="16" fill="#8B5CF6" fill-opacity="0.9"/>
+    <path d="M355 270C415 240 492 236 610 262" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M330 355H590" stroke="#475569" stroke-width="12" stroke-linecap="round"/>
+    <rect x="420" y="382" width="116" height="20" rx="10" fill="#22C55E" fill-opacity="0.8"/>
+    <circle cx="362" cy="438" r="20" fill="#22C55E" fill-opacity="0.25"/>
+    <circle cx="594" cy="438" r="20" fill="#22C55E" fill-opacity="0.25"/>
+  </g>
+
+  <g>
+    <rect x="85" y="420" width="170" height="52" rx="14" fill="#0F172A" stroke="#475569"/>
+    <text x="107" y="453" fill="#E2E8F0" font-size="22" font-family="Arial, sans-serif" font-weight="700">Terminator</text>
+  </g>
+
+  <g>
+    <rect x="706" y="100" width="120" height="120" rx="18" fill="#0F172A" stroke="#475569"/>
+    <path d="M736 158H796" stroke="#6EE7F9" stroke-width="8" stroke-linecap="round"/>
+    <path d="M766 128V188" stroke="#8B5CF6" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

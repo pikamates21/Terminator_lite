@@ -1,0 +1,16 @@
+{
+  "name": "Terminator_lite",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "streetsidesoftware.code-spell-checker",
+        "yzhang.markdown-all-in-one"
+      ]
+    }
+  },
+  "postCreateCommand": "echo 'Terminator_lite is ready for development.'"
+}
